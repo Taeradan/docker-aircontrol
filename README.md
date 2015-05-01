@@ -1,5 +1,5 @@
 # docker-aircontrol
-Ubiquiti AirControl in a container
+Ubiquiti AirControl in a container. More information on the [community forum](http://community.ubnt.com/t5/airControl/bd-p/airControl)
 
 ## From Docker Hub (easiest)
 
@@ -21,5 +21,5 @@ make
 
 ## First use
 
-After the container is launched, the application will be available on your Docker host at http://localhost:9080 .
+After the container is launched, you can connect to [the application](http://localhost:9080) available on your Docker host on the 9080 port.
 The default user is `ubnt` and the default password is `ubnt`

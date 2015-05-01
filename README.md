@@ -6,7 +6,7 @@ Ubiquiti AirControl in a container. More information on the [community forum](ht
 To use AirControl from Docker Hub, you juste have to launch :
 
 ~~~bash
-docker docker run -d --name aircontrol -p 9080:9080 --restart=always taeradan/aircontrol
+docker run -d --name aircontrol -p 9080:9080 --restart=always taeradan/aircontrol
 ~~~
 
 ## From source

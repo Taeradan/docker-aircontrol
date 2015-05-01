@@ -8,3 +8,6 @@ container: image
 
 image:
 	docker build -t $(IMAGE_NAME) .
+
+clean:
+	-docker rm -f $(CONTAINER_NAME)

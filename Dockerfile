@@ -10,4 +10,7 @@ RUN sed -i -e's/export\ JAVA_HOME/#export JAVA_HOME/' /etc/init.d/aircontrol
 
 EXPOSE 9080
 
+RUN mkdir -p /usr/share/aircontrol/logs/ &&\
+    touch /usr/share/aircontrol/logs/server.log
+
 ENTRYPOINT service aircontrol start && tail -f /usr/share/aircontrol/logs/server.log
